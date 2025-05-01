@@ -34,10 +34,11 @@ This repository contains two core modules:
 ```
 project-root/
 ├── notebooks/
-│   └── JP_Morgan_QR_Complete.ipynb     # Main project notebook
+│   ├── Task_1.ipynb
+│   └── Task_3.ipynb
 ├── data/
-│   ├── Nat_Gas.csv                     # Natural gas pricing data
-│   └── Loan_Data.csv                   # Loan book for credit risk modeling
+│   ├── Nat_Gas.csv
+│   └── Loan_Data.csv
 └── README.md
 ```
 ---
