@@ -31,8 +31,13 @@ This repository contains two core modules:
 ---
 
 ## 📝 Folder Structure
-project-root/ ├── notebooks/ │ └── JP_Morgan_QR_Complete.ipynb # Main project notebook ├── data/ │ ├── Nat_Gas.csv # Natural gas pricing data │ └── Loan_Data.csv # Loan book for credit risk modeling └── README.md
-
+project-root/
+├── notebooks/
+│   └── JP_Morgan_QR_Complete.ipynb     # Main project notebook
+├── data/
+│   ├── Nat_Gas.csv                     # Natural gas pricing data
+│   └── Loan_Data.csv                   # Loan book for credit risk modeling
+└── README.md
 ---
 
 ## 🏁 Outcome
