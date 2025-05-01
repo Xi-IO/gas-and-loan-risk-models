@@ -16,7 +16,9 @@ This repository contains two core modules:
 ### 2. Credit Risk & Expected Loss Modeling
 - Train classification models (Logistic Regression, XGBoost) to predict probability of loan default
 - Calculate expected loss (EL) using the formula:  
-  $$ EL = PD \times EAD \times (1 - \text{Recovery Rate}) $$
+\begin{align*}
+EL = PD \times EAD \times (1 - \text{Recovery Rate})
+\end{align*}
 - Discretize FICO scores into quantile-based buckets and visualize the relationship with default rate
 
 ---
