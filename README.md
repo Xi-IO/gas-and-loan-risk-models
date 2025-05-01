@@ -4,16 +4,16 @@ This project is based on the **J.P. Morgan Quantitative Research Virtual Experie
 
 ---
 
-## 💼 Project Overview
+## Project Overview
 
 This repository contains two core modules:
 
-### 1. 📈 Natural Gas Storage Contract Valuation
+### 1. Natural Gas Storage Contract Valuation
 - Forecast natural gas prices using Holt-Winters exponential smoothing
 - Interpolate and extrapolate prices on any date
 - Compute the net present value of a gas storage contract based on injection/withdrawal dates, fees, and storage costs
 
-### 2. 🧮 Credit Risk & Expected Loss Modeling
+### 2. Credit Risk & Expected Loss Modeling
 - Train classification models (Logistic Regression, XGBoost) to predict probability of loan default
 - Calculate expected loss (EL) using the formula:  
   $$ EL = PD \times EAD \times (1 - \text{Recovery Rate}) $$
@@ -21,7 +21,7 @@ This repository contains two core modules:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python (pandas, scikit-learn, statsmodels, matplotlib, xgboost)
 - Time Series Modeling (Holt-Winters)
@@ -30,7 +30,8 @@ This repository contains two core modules:
 
 ---
 
-## 📝 Folder Structure
+## Folder Structure
+```
 project-root/
 ├── notebooks/
 │   └── JP_Morgan_QR_Complete.ipynb     # Main project notebook
@@ -38,9 +39,10 @@ project-root/
 │   ├── Nat_Gas.csv                     # Natural gas pricing data
 │   └── Loan_Data.csv                   # Loan book for credit risk modeling
 └── README.md
+```
 ---
 
-## 🏁 Outcome
+## Outcome
 
 This project demonstrates how quantitative researchers apply data science to:
 - Support energy traders with predictive price models
@@ -49,6 +51,6 @@ This project demonstrates how quantitative researchers apply data science to:
 
 ---
 
-## 🏷️ Acknowledgment
+## Author
 
-This project is based on a simulated experience by **J.P. Morgan Chase & Co.** and hosted on **Forage**. All data is fictional and used for educational purposes only.
+Xi Li
